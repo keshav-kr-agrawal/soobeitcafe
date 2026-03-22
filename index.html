@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soobeit Cafe - Choose Your Vibe</title>
+    <!-- Google Fonts: Inter and Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">Soobeit Cafe</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Vibe</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Pune's first choose-your-vibe destination.</h1>
+            <p class="subtitle">We Are Open! Discover an aesthetic like no other.</p>
+            <a href="#gallery" class="btn btn-primary">Explore Our Vibe</a>
+        </div>
+    </header>
+
+    <!-- About/Intro Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">A Space Crafted for You</h2>
+            <p class="section-text">Soobeit Cafe is more than just a place to grab coffee; it's a feeling. We are a female-led business dedicated to providing a beautiful, calming, and inspiring space. Whether you're here to work, catch up with friends, or simply enjoy a quiet moment, choose your perfect vibe with us.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Demo Pics) -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Experience the Vibe</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/interior.png" alt="Soobeit Cafe Interior" id="img-interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/coffee.png" alt="Soobeit Cafe Coffee & Pastry" id="img-coffee">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/corner.png" alt="Soobeit Cafe Aesthetic Corner" id="img-corner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section (Prices) -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item card">
+                    <h3>Signature Lattes</h3>
+                    <p class="desc">Rose, Lavender, Vanilla</p>
+                    <span class="price">₹250</span>
+                </div>
+                <div class="menu-item card">
+                    <h3>Artisan Pastries</h3>
+                    <p class="desc">Freshly baked croissants & tarts</p>
+                    <span class="price">₹180</span>
+                </div>
+                <div class="menu-item card">
+                    <h3>Avocado Toast</h3>
+                    <p class="desc">With sourdough & microgreens</p>
+                    <span class="price">₹320</span>
+                </div>
+                <div class="menu-item card">
+                    <h3>Smoothie Bowls</h3>
+                    <p class="desc">Berry bliss & Tropical glow</p>
+                    <span class="price">₹290</span>
+                </div>
+                <div class="menu-item card">
+                    <h3>Iced Matchas</h3>
+                    <p class="desc">Premium ceremonial grade</p>
+                    <span class="price">₹280</span>
+                </div>
+                <div class="menu-item card">
+                    <h3>Cold Brews</h3>
+                    <p class="desc">Steeped for 18 hours</p>
+                    <span class="price">₹220</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-text">We'd love to hear from you. For orders, reservations, or inquiries, please contact us via email or send us a direct message on Instagram.</p>
+            <div class="contact-links">
+                <a href="mailto:hello@soobeitcafe.com" class="btn btn-outline">Email Us</a>
+                <a href="https://www.instagram.com/soobeitcafe/?hl=en" target="_blank" class="btn btn-social">
+                    <ion-icon name="logo-instagram"></ion-icon> Instagram DM
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Soobeit Cafe.</h3>
+                <p>Choose your vibe.</p>
+                <p class="location-text"><ion-icon name="location-outline"></ion-icon> 📍 Tilak road, Pune</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/soobeitcafe/?hl=en" target="_blank" aria-label="Instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Soobeit Cafe. All rights reserved.</p>
+            <p class="hikity-credit">made by <a href="https://hikity.xyz" target="_blank">hikity</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                const navLinks = document.getElementById('nav-links');
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.getElementById('nav-links');
+        
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
